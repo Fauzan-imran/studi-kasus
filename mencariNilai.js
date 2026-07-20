@@ -1,6 +1,6 @@
-const nilai = [90,75,60,45,88];
+const nilai = [80,95,70,88,100,65];
 let nilaiTerbesar = 0;
-let nilaiTerkecil = 50;
+let nilaiTerkecil = 100;
 for (let i = 0; i < nilai.length; i++) {
     if (nilai[i]  > nilaiTerbesar) {
         nilaiTerbesar = nilai[i];
@@ -8,5 +8,5 @@ for (let i = 0; i < nilai.length; i++) {
         nilaiTerkecil = nilai[i];
     }
 }
-console.log("Nilai terbesar: " + nilaiTerbesar);
-console.log("Nilai terkecil: " + nilaiTerkecil);       
+console.log("Nilai tertinggi: " + nilaiTerbesar);
+console.log("Nilai terendah: " + nilaiTerkecil);       
