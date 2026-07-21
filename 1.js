@@ -9,7 +9,7 @@ console.log("nama: " + nama);
 console.log("umur: " + umur);
 console.log("total belanja: " + total);
  if (total >= 30000) {
-    console.log("Status:  Mendapatkan diskon");
+    console.log("Status: Mendapatkan diskon");
  } else {
     console.log("Status: Tidak mendapatkan diskon");
  }
