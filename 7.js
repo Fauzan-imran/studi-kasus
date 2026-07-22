@@ -8,5 +8,6 @@ for (let i = 0; i < nilai.length; i++) {
         nilaiTerkecil = nilai[i];
     }
 }
-console.log("Nilai tertinggi: " + nilaiTerbesar);
-console.log("Nilai terendah: " + nilaiTerkecil);       
+console.log(`Nilai tertinggi: ${nilaiTerbesar}
+Nilai terkecil: ${nilaiTerkecil}`
+)

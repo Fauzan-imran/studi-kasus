@@ -17,5 +17,6 @@ for (let i = 0; i < kehadiran.length; i++) {
         console.log("Siswa hadir");
     }
 }
-console.log("Jumlah siswa hadir: " + jumlahHadir);
-console.log("Jumlah siswa tidak hadir: " + jumlahTidakHadir);
+console.log(`Jumlah siswa hadir:  ${jumlahHadir}
+Jumlah siswa tidak hadir: ${jumlahTidakHadir}`
+)

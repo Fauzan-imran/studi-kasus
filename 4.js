@@ -8,5 +8,6 @@ for (let i = 0; i < stok.length; i++) {
         barangTersedia++;
     }
 }
-console.log("Jumlah barang habis: " + BarangHabis);
-console.log("Jumlah barang tersedia: " + barangTersedia);
+console.log(`Jumlah barang habis:  ${BarangHabis}
+Jumlah barang tersedia ${barangTersedia}`
+)

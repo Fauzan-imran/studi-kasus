@@ -10,5 +10,5 @@ for (let i = 0; i <nilai.length; i++) {
         jumlahTidakLulus++;
     }
 }
-console.log("Jumlah siswa lulus: " + jumlahLulus);
-console.log("Jumlah siswa tidak lulus: " + jumlahTidakLulus);
+console.log(`Jumlah siswa lulus:  ${jumlahLulus}
+Jumlah siswa tidak lulus ${jumlahTidakLulus}`)
